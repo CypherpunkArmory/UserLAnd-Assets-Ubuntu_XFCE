@@ -17,7 +17,7 @@ apt-get update
 export DEBIAN_FRONTEND=noninteractive
 apt-get install -y --no-install-recommends sudo dropbear libgl1-mesa-glx tightvncserver xterm xfonts-base expect wget curl
 apt-get install -y pulseaudio
-apg-get install -y lxde
+apt-get install -y lxde
 
 #clean up after ourselves
 apt-get clean
